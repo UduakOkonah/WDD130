@@ -101,16 +101,25 @@ section img {
 }
 
 
-/* footer {
+/* History section */
+.history {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 2rem;
+}
+
+
+footer {
     background-color: rgb(212, 127, 30);
     color: beige;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+} 
 
-/* footer p {
+footer p {
     margin: 0;
 }
 
@@ -122,4 +131,5 @@ footer .sociallinks a {
 
 footer .sociallinks a:hover {
     color: black;
-} */
+} 
+
