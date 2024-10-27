@@ -109,7 +109,7 @@ main {
 }
 
 
-header, .grid footer{
+header, .grid footer, main, aside{
     max-width: 840px;
     margin: 0 auto;
 }
